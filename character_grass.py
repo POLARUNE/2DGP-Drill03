@@ -49,7 +49,11 @@ def run_left():
     for y in range(80,550,10):
         draw_boy(0,y)
     pass
-    
+
+def run_hypotenuse():
+    print('HYPOTENUSE')
+    pass
+
 def run_rectangle():
     print('RECTANGLE')
     run_top()
@@ -60,7 +64,9 @@ def run_rectangle():
 
 def run_triangle():
     print('TRIANGLE')
-    
+    run_bottom()
+    run_left()
+    run_hypotenuse()
     pass
     
 while True:
