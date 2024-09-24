@@ -52,6 +52,10 @@ def run_left():
 
 def run_hypotenuse():
     print('HYPOTENUSE')
+    y = 550
+    for x in range(0,800,10):    
+        y -= 550 // (800//10)
+        draw_boy(x,y)
     pass
 
 def run_rectangle():
