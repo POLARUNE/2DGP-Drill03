@@ -30,8 +30,6 @@ def run_top():
     print('TOP')
     for x in range(0,800,10):
         draw_boy(x,550)
-
-    
     pass
 
 def run_right():
@@ -42,6 +40,8 @@ def run_right():
 
 def run_bottom():
     print('BOTTOM')
+    for x in range(800,0,-10):
+        draw_boy(x,90)
     pass
 
 def run_left():
