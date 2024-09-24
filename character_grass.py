@@ -19,17 +19,38 @@ def run_circle():
         grass.draw_now(400,30)
         boy.draw_now(x,y)
         delay(0.01)
-    
-pass
+        
+    pass
 
+def run_top():
+    print('TOP')
+    pass
+
+def run_right():
+    print('RIGHT')
+    pass
+
+def run_bottom():
+    print('BOTTOM')
+    pass
+
+def run_left():
+    print('LEFT')
+    pass
+    
 def run_rectangle():
     print('RECTANGLE')
+    run_top()
+    run_right()
+    run_bottom()
+    run_left()
     pass
 
     
 while True:
+    # run_circle()
     run_rectangle()
-    run_circle()
+
     break
 
 close_canvas()
