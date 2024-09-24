@@ -46,6 +46,8 @@ def run_bottom():
 
 def run_left():
     print('LEFT')
+    for y in range(80,550,10):
+        draw_boy(0,y)
     pass
     
 def run_rectangle():
@@ -58,7 +60,7 @@ def run_rectangle():
 
     
 while True:
-    # run_circle()
+    run_circle()
     run_rectangle()
 
     break
